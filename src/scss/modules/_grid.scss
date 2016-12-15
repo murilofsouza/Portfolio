@@ -1,0 +1,30 @@
+.container {
+    max-width: 1140px;
+    margin: 0 auto;
+    padding: 0 15px;
+    box-sizing: content-box;
+
+}
+
+.row {
+    margin-right: -15px;
+    margin-left: -15px;
+
+    .col {
+        float: left;
+        width: 50%;
+        padding: 0 15px;
+         position: relative;
+    }
+}
+
+@media (max-width: 768px) {
+    .row {
+        .col {
+            width: 100%;
+        }
+    }
+    .only-desk {
+        display: none;
+    }
+}

@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+  font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+}
+html {
+
+}
+body {
+  color: #444;
+  transition: all .4s .3s ease-in;
+}
+
+a,
+button {
+  outline: none;
+  border: none;
+  background: none;
+}
+
+a {
+	color: $gold;
+}
+
+p {
+	font-family: 'Karla', sans-serif;
+	font-size: 16px;
+	color: #757575;
+	line-height: 2;
+	letter-spacing: 0.5px;
+}
